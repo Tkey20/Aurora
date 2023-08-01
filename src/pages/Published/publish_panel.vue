@@ -489,7 +489,7 @@ export default {
   margin-left: auto;
   .btnPublish {
     height: 32px;
-    padding: 0 15px;
+    padding: 0 18px;
     // margin-left: auto;
   }
 }

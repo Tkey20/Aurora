@@ -34,46 +34,52 @@
         :key="index"
         slot="default"
       >
-        <div class="article-card">
-          <div class="recommand_img">
-            <a :href="item.nameUrl">
-              <img :src="item.filmPicture" fit="fit" class="bookImg" />
-            </a>
-          </div>
-          <div class="user-mood">
-            <span
-              class="iconfont icon-aixin"
-              :class="{ active: item.onAndOff }"
-              @click="userInterest(item)"
-            ></span>
-          </div>
-          <div class="main-info">
-            <div class="recommand-msg">
-              <div class="title">
-                <a :href="item.nameUrl">{{ item.filmName }}</a>
+        <a :href="item.nameUrl" target="_blank">
+          <div class="article-card">
+            <div class="recommand_img">
+              <a :href="item.nameUrl" target="_blank">
+                <img :src="item.filmPicture" fit="fit" class="bookImg" />
+              </a>
+            </div>
+            <div class="user-mood">
+              <span
+                class="iconfont icon-aixin"
+                :class="{ active: item.onAndOff }"
+                @click="userInterest(item)"
+              ></span>
+            </div>
+            <div class="main-info">
+              <div class="recommand-msg">
+                <div class="title">
+                  <a :href="item.nameUrl" target="_blank">{{
+                    item.filmName
+                  }}</a>
+                </div>
+              </div>
+              <div class="author">
+                <span
+                  ><a :href="item.nameUrl" target="_blank">{{
+                    item.moviecrew
+                  }}</a></span
+                >
+              </div>
+              <div class="movePublish">
+                <a :href="item.nameUrl" target="_blank">{{ item.moviemisc }}</a>
+              </div>
+              <div class="movieRate">
+                <el-rate
+                  v-model="item.grade"
+                  disabled
+                  show-score
+                  :max="10"
+                  text-color="#ff9900"
+                  score-template="{value}"
+                >
+                </el-rate>
               </div>
             </div>
-            <div class="author">
-              <span
-                ><a :href="item.nameUrl">{{ item.moviecrew }}</a></span
-              >
-            </div>
-            <div class="movePublish">
-              <a :href="item.nameUrl">{{ item.moviemisc }}</a>
-            </div>
-            <div class="movieRate">
-              <el-rate
-                v-model="item.grade"
-                disabled
-                show-score
-                :max="10"
-                text-color="#ff9900"
-                score-template="{value}"
-              >
-              </el-rate>
-            </div>
           </div>
-        </div>
+        </a>
       </div>
     </el-skeleton>
   </div>
@@ -120,7 +126,7 @@ export default {
   position: relative;
   border-top: 1px solid @b_color;
   display: flex;
-  height: 176px;
+  height: 180px;
   border-radius: @radius_size;
   animation: fadeInUp 1.3s;
   margin-top: 5px;
@@ -182,7 +188,12 @@ export default {
 .movePublish {
   display: flex;
   margin-top: 5px;
-  max-height: 100px;
+  max-height: 85px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
   a {
     font-size: 13px;
     line-height: 23px;
@@ -194,10 +205,7 @@ export default {
 }
 .movieRate {
   flex: 1;
-  position: relative;
-  .el-rate {
-    position: absolute;
-    bottom: 0;
-  }
+  position: absolute;
+  bottom: 3px;
 }
 </style>

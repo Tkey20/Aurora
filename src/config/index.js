@@ -405,6 +405,7 @@ export const recommendFilmList = [
     filmName: "封神第一部：朝歌风云",
     eid: "\uD83E\uDD20",
     moviecrew: "导演：乌尔善",
+    grade: 7.8,
     moviemisc:
       "商王殷寿（费翔 饰）勾结狐妖妲己（娜然 饰），暴虐无道，引发天谴。昆仑仙人姜子牙（黄渤 饰）携“封神榜”下山，寻找天下共主，以救苍生。西伯侯之子姬发（于适 饰）逐渐发现殷寿的本来面目，反出朝歌。各方势力暗流涌动，风云变幻端倪初显……"
   },
@@ -415,6 +416,7 @@ export const recommendFilmList = [
       "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2893270877.webp",
     filmName: "消失的她",
     eid: "\uD83E\uDD20",
+    grade: 6.4,
     moviecrew: "导演：崔睿 / 刘翔",
     moviemisc:
       "　何非（朱一龙 饰）的妻子李木子在结婚周年旅行中离奇消失，在何非苦寻无果之时妻子（文咏珊 饰）再次现身，何非却坚持眼前的陌生女人并非妻子，妻子拿出了身份证明进行自证，夫妻二人似乎都有不可告人的秘密，随着金牌律师陈麦（倪妮 饰）介入到这起离奇案件中，更多的谜团慢慢浮现……"
@@ -428,6 +430,7 @@ export const recommendFilmList = [
     filmName: "银河护卫队3",
     eid: "\uD83E\uDD20",
     moviecrew: "导演: 詹姆斯·古恩",
+    grade: 8.4,
     moviemisc:
       "　影片承接前作，银河护卫队成员们已经在虚无知地上安顿了下来。然而，由于火箭浣熊（布莱德利·库珀 Bradley Cooper 配音）的动荡往事的侵扰，他们的生活很快被打破。“星爵”彼得·奎尔（克里斯·帕拉特 Chris Pratt 饰）依然迷失在失去卡魔拉（佐伊·索尔达娜 Zoe Saldana 饰）的痛苦中，但是他必须团结起他的团队，前往执行一项危险的任务，只为营救火箭浣熊。如果这项任务失败，那么为人熟知的银河护卫队有可能就此走向终结。"
   },
@@ -438,6 +441,7 @@ export const recommendFilmList = [
     filmPicture:
       "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2888584528.webp",
     filmName: "超级马力欧兄弟大电影",
+    grade: 7.8,
     eid: "\uD83E\uDD20",
     moviecrew: "导演: 亚伦·霍瓦斯 / 迈克尔·杰勒尼克",
     moviemisc:
@@ -451,17 +455,19 @@ export const recommendFilmList = [
       "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2888874787.webp",
     filmName: "龙与地下城：侠盗荣耀",
     eid: "\uD83E\uDD20",
+    grade: 7.5,
     moviecrew: "导演: 约翰·弗朗西斯·戴利 / 乔纳森·戈尔茨坦",
     moviemisc:
       "　艾德金（克里斯·派恩 Chris Pine 饰）是一名吟游诗人，在一次盗宝行动中，他的贪婪导致了妻子的死亡。之后，野蛮人霍尔盖（米歇尔·罗德里格兹 Michelle Rodriguez 饰）出现在了颓废的艾德金身边，和他共同抚养女儿琪拉（克洛伊·科尔曼 Chloe Coleman 饰）。"
   },
   {
     tid: 1,
-    nameUrl: "https://weread.qq.com/web/reader/66832530721e777066806c9",
+    nameUrl: "https://movie.douban.com/subject/36035676/",
     filmPicture:
       "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2893820209.webp",
     filmName: "长安三万里",
     eid: "\uD83E\uDD20",
+    grade: 8.2,
     moviecrew: "导演: 谢君伟 / 邹靖",
     moviemisc:
       "　　安史之乱爆发后数年，吐蕃大军攻打西南。大唐节度使高适交战不利，长安岌岌可危。困守孤城的高适向监军太监回忆起自己与李白的一生往事。"
@@ -472,6 +478,7 @@ export const recommendFilmList = [
     filmPicture:
       "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2893481084.webp",
     filmName: "碟中谍7：致命清算（上）",
+    grade: 7.8,
     eid: "\uD83E\uDD20",
     moviecrew: "导演: 克里斯托弗·麦奎里",
     moviemisc:
@@ -485,6 +492,7 @@ export const recommendFilmList = [
       "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2892365111.webp",
     filmName: "闪电侠 The Flash",
     eid: "\uD83E\uDD20",
+    grade: 7.8,
     moviecrew: "导演: 安德斯·穆斯切蒂",
     moviemisc:
       "巴里（埃兹拉·米勒 Ezra Miller 饰）用自己的超能力重返过去，想要改变历史、拯救自己的家人，然而他的所作所为，也在无意间改变了未来。在这个新的未来里，佐德将军（迈克尔·珊农 Michael Shannon 饰）回归，并威胁要毁灭世界。"
@@ -495,6 +503,7 @@ export const recommendFilmList = [
     filmPicture:
       "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2895351514.webp",
     filmName: "茶啊二中",
+    grade: 7.8,
     eid: "\uD83E\uDD20",
     moviecrew: "导演: 夏铭泽 / 阎凯",
     moviemisc:
@@ -506,6 +515,7 @@ export const recommendFilmList = [
     filmPicture:
       "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2895679456.webp",
     filmName: "芭比 Barbie",
+    grade: 8.4,
     eid: "\uD83E\uDD20",
     moviecrew: "导演: 格蕾塔·葛韦格",
     moviemisc:
@@ -518,17 +528,19 @@ export const recommendFilmList = [
       "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2552058346.webp",
     filmName: "复仇者联盟4：终局之战",
     eid: "\uD83E\uDD20",
+    grade: 8.5,
     moviecrew: "导演: 安东尼·罗素 / 乔·罗素",
     moviemisc:
       "一声响指，宇宙间半数生命灰飞烟灭。几近绝望的复仇者们在惊奇队长（布丽·拉尔森 Brie Larson 饰）的帮助下找到灭霸（乔什·布洛林 Josh Brolin 饰）归隐之处，却得知六颗无限宝石均被销毁，希望彻底破灭。如是过了五年，迷失在量子领域的蚁人（保罗·路德 Paul Rudd 饰）意外回到现实世界，他的出现为幸存的复仇者们点燃了希望。"
   },
   {
     tid: 1,
-    nameUrl: "https://movie.douban.com/subject/10741834/photos?type=R",
+    nameUrl: "https://movie.douban.com/subject/24773958/",
     filmPicture:
       "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2517753454.webp",
     filmName: "复仇者联盟3：无限战争",
     eid: "\uD83E\uDD20",
+    grade: 8.1,
     moviecrew: "导演: 安东尼·罗素 / 乔·罗素",
     moviemisc:
       "最先与灭霸军团遭遇的雷神索尔一行遭遇惨烈打击，洛基遇害，空间宝石落入灭霸之手。未几，灭霸的先锋部队杀至地球，一番缠斗后掳走奇异博士。为阻止时间宝石落入敌手，斯塔克和蜘蛛侠闯入了敌人的飞船。与此同时，拥有心灵宝石的幻视也遭到外星侵略者的袭击，"
@@ -539,6 +551,7 @@ export const recommendFilmList = [
     filmPicture:
       "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2237747953.webp",
     filmName: "复仇者联盟2：奥创纪元",
+    grade: 7.5,
     eid: "\uD83E\uDD20",
     moviecrew: "导演: 乔斯·韦登",
     moviemisc:
@@ -552,6 +565,7 @@ export const recommendFilmList = [
     filmName: "复仇者联盟 The Avengers",
     eid: "\uD83E\uDD20",
     moviecrew: "导演: 乔斯·韦登",
+    grade: 8.3,
     moviemisc:
       "一股突如其来的强大邪恶势力对地球造成致命威胁，没有任何一个超级英雄能够单独抵挡。长期致力于保护全球安危的神盾局（SHIELD）感到措手不及，其指挥官“独眼侠”尼克·弗瑞（塞缪尔·杰克逊 Samuel L. Jackson 饰）意识到他必须创建一个“史上最强”的联盟组织"
   }

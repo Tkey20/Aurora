@@ -79,7 +79,7 @@
               <span>{{ item.emoji }}</span>
             </div>
             <div class="main-info">
-              <div @click="toBlog(item.tid)">
+              <div @click="toBlog(item)">
                 <div class="user-msg">
                   <div class="nickName">
                     <span>{{ item.nickname }}</span>
@@ -190,8 +190,13 @@ export default {
   },
   methods: {
     ...mapActions("userPage", ["deluserTableData", "userTableDataChange"]),
-    toBlog(article_id) {
-      this.$router.push(`/article/${article_id}`);
+    toBlog(item) {
+      this.$router.push({
+        path: `/article/${item.tid}`,
+        query: {
+          articleInfo: item,
+        },
+      });
     },
     async likeClick(item, tid) {
       console.log(item);
@@ -265,6 +270,7 @@ export default {
 }
 .allMain {
   min-height: 500px;
+  padding-bottom: 10px;
 }
 .list-enter-active {
   animation: fadeInDown 1.2s;

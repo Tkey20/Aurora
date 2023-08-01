@@ -18,7 +18,7 @@
         <div class="main-info">
           <div class="user-msg">
             <div class="nickName">
-              <span>{{ article_info.nickName }}</span>
+              <span>{{ article_info.nickname }}</span>
             </div>
             <div class="user-date">
               <span>{{ article_info.createtime | publishDate }}</span>
@@ -54,10 +54,7 @@
             </div>
             <div class="pinlun">
               <span>
-                <span
-                  class="comment"
-                  :class="{ active: onAndOff }"
-                  @click="getCommentList(article_info)"
+                <span class="comment" :class="{ active: onAndOff }"
                   ><i class="iconfont icon-pinglun"></i
                   >{{ article_info.commentcount }}</span
                 >
@@ -112,12 +109,18 @@ export default {
       //   spirit_text: '当初是你要分开分开就分开， 现在又要用真爱把我哄回来,爱情不是你想卖想买就能卖， 让我挣开让我明白放手你的爱,出卖我的爱逼着我离开最后， 知道真相的我眼泪知道真相的我眼泪掉下知道真相的我眼泪掉下知道真相的我眼泪掉下掉下来'
       // },
       views: 0,
-      // commentData: [],
       article_info: {},
       onAndOff: true,
     };
   },
+  created() {
+    this.getArticleInfo();
+  },
   methods: {
+    // 获取跳转的文章
+    getArticleInfo() {
+      this.article_info = this.$route.query.articleInfo;
+    },
     async viewsadd() {
       const { data: res } = await findViews({
         tid: this.$route.params.id,
@@ -154,10 +157,6 @@ export default {
       console.log(item);
       this.onAndOff = !this.onAndOff;
     },
-  },
-  created() {
-    // this.commentData = CommentData.comment.data
-    this.viewsadd();
   },
 };
 </script>

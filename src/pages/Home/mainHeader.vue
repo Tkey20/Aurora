@@ -14,6 +14,7 @@
         placement="top-start"
         trigger="hover"
         popper-class="header_pop"
+        close-delay="10000000"
       >
         <template #reference>
           <el-avatar shape="circle" :size="40" :src="avatarPic"></el-avatar>

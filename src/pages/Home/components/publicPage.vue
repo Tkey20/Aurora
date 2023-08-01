@@ -70,7 +70,7 @@
               <span>{{ item.emoji }}</span>
             </div>
             <div class="main-info">
-              <div @click="toBlog(item.tid)">
+              <div @click="toBlog(item)">
                 <div class="user-msg">
                   <div class="nickName">
                     <span>{{ item.nickname }}</span>
@@ -178,8 +178,13 @@ export default {
       });
       console.log(res);
     },
-    toBlog(article_id) {
-      this.$router.push(`/article/${article_id}`);
+    toBlog(item) {
+      this.$router.push({
+        path: `/article/${item.tid}`,
+        query: {
+          articleInfo: item,
+        },
+      });
     },
     async likeClick(item, tid) {
       console.log(item);
@@ -243,6 +248,9 @@ export default {
 .list-enter,
 .list-leave-to {
   opacity: 0;
+}
+.allMain {
+  padding-bottom: 10px;
 }
 // 发表的文章样式
 .article-card {
