@@ -1,0 +1,36 @@
+import Vue from 'vue'
+import { MessageBox, TableColumn, Table, PageHeader, Radio, Rate, Option, Select, Tooltip, Skeleton, SkeletonItem, popover, Tag, Switch, Aside, Form, FormItem, Upload, Button, Container, Icon, Input, Main, Message, Header, Row, Col, Avatar, Menu, Submenu, MenuItem, Dialog } from 'element-ui'
+
+Vue.use(Button)
+Vue.use(Icon)
+Vue.use(Container)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Input)
+Vue.use(Header)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Avatar)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(Dialog)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Upload)
+Vue.use(Switch)
+Vue.use(Tag)
+Vue.use(popover)
+Vue.use(Skeleton)
+Vue.use(SkeletonItem)
+Vue.use(Rate)
+Vue.use(Tooltip)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Radio)
+Vue.use(PageHeader)
+Vue.use(Table)
+Vue.use(TableColumn)
+
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
