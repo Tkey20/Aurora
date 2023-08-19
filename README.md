@@ -64,4 +64,4 @@
   ![alt](http://vikeya.com:3527/aurora/wish.gif)
 
 1. **个人信息设置模块**
-![alt](http://vikeya.com:3527/aurora/user.gif)
+![alt](https://vikeya.com/upload/free_ship.png)
