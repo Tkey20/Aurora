@@ -37,31 +37,31 @@
 1. **登录模块**
 ![alt](http://vikeya.com:3527/aurora/login.gif)
 
-1. **社区页以及主页**
+2. **社区页以及主页**
  * 社区页可查看所有人发表过的动态
 
-![alt](http://vikeya.com:3527/aurora/mainPage.gif)
+![alt](http://vikeya.com/upload/mainPage.gif)
 
 3. **推荐动态、书籍、电影模块**
   * 推荐模块会根据用户当天选择的心情以及发表的动态的变化而实时推荐。
   * 点击爱心可以收集当前用户的情绪对于推荐喜爱，下次对于当前情绪的用户会优先推送这些推荐内容。
   
-![alt](http://vikeya.com:3527/aurora/recommand.gif)
+![alt](http://vikeya.com/upload/recommand.gif)
 
-1. **小目标打卡功能**
+4. **小目标打卡功能**
 * 完成目标获得激励人心的反馈，促进大学生有信心面对问题。
-![alt](http://vikeya.com:3527/aurora/小目标.gif)
+![alt](http://vikeya.com/upload/小目标.gif)
 
-4. **发布动态功能**
+5. **发布动态功能**
 * 发布成功后会识别用户是消极的情绪还是开心的情绪，并采取对应措施。
 * 识别到积极情绪，推荐模块的动态页也会实时推荐相似情绪的动态，引起共鸣。
-  ![alt](http://vikeya.com:3527/aurora/发布.gif)
+  ![alt](http://vikeya.com/upload/发布.gif)
 
 * 识别到消极情绪，提供治愈弹窗功能，系统会虚拟鼓励用户，通过不同的鼓励语录对用户产生不同的激励效果。
-  ![alt](http://vikeya.com:3527/aurora/%E6%B6%88%E6%9E%81%E5%8F%91%E5%B8%83.gif)
+  ![alt](http://vikeya.com/upload/消极发布.gif)
 
-1. **心愿模块**
-  ![alt](http://vikeya.com:3527/aurora/wish.gif)
+6. **心愿模块**
+  ![alt](http://vikeya.com/upload/wish.gif)
 
-1. **个人信息设置模块**
-![alt](https://vikeya.com/upload/free_ship.png)
+7. **个人信息设置模块**
+![alt](https://vikeya.com/upload/user.gif)
